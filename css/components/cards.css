@@ -1,0 +1,66 @@
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 0 1rem;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 320px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width:320px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 320px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.btn-now {
+  background-image: url('/home/fxcode/code/Santiles87/fullstack-challenges/04-Front-End/02-CSS-components/03-Landing-page/landing/images/batman.jpg');
+  background-size: contain;
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
